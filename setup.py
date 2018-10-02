@@ -1,22 +1,20 @@
 """Minimal setup file for tasks project."""
 
 from setuptools import setup, find_packages
+import glob
+import os
 
 setup(
-    name='tasks',
-    version='0.1.2',
-    license='MIT',
-    description='Minimal Project Task Management',
-
-    author='Brian Okken',
-    author_email='Please use pythontesting.net contact form.',
-    url='http://pythontesting.net',
+    name='theSandboxProject',
 
     packages=find_packages(where='src'),
     package_dir={'': 'src'},
 
-    install_requires=['click', 'tinydb', 'pytest-runner', 'attrs', 'pytest'],
-
+    install_requires=['pytest-runner', 'pytest'],
+    setup_requires=["pytest"],
+    tests_require=["pytest"],
+    py_modules=[os.path.splitext(os.path.basename(path))[0]
+                for path in glob.glob('src/*.py')],
     # entry_points={
     #     'console_scripts': [
     #         'tasks = tasks.cli:tasks_cli',
