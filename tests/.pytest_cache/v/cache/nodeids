@@ -1,0 +1,23 @@
+[
+  "test_add.py::test_add_first_attempt",
+  "test_hello_world.py::test_one",
+  "test_hello_world.py::test_two",
+  "test_hello_world.py::TestSomeStuff::()::test_three",
+  "test_task.py::test_member_access",
+  "test_task.py::test_defaults",
+  "test_task.py::test_equal",
+  "test_task.py::test_unequal[Task(summary='do something', owner='Not Brian', done=False, id=1)]",
+  "test_task.py::test_unequal[Task(summary='do something', owner='sandy', done=True, id=1)]",
+  "test_task.py::test_unequal[Task(summary='just sit', owner='Not Brian', done=True, id=1)]",
+  "test_task.py::test_foo[1-4]",
+  "test_task.py::test_foo[1-5]",
+  "test_task.py::test_foo[1-6]",
+  "test_task.py::test_foo[2-4]",
+  "test_task.py::test_foo[2-5]",
+  "test_task.py::test_foo[2-6]",
+  "test_task.py::test_foo[3-4]",
+  "test_task.py::test_foo[3-5]",
+  "test_task.py::test_foo[3-6]",
+  "test_task.py::test_to_dict",
+  "test_task.py::test_from_dict"
+]

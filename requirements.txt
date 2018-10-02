@@ -1,0 +1,6 @@
+pytest
+coverage
+click
+tinydb
+pytest-runner
+attrs 
