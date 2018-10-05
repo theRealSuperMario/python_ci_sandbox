@@ -4,5 +4,6 @@ pytesting:
     - sandbox
   script:
     - apt-get update -q -y
+    - pip install -r requirements.txt
     - pip install tox
     - tox
