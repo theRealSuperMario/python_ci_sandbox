@@ -4,3 +4,4 @@ class CLI():
 
     def run(self):
         print('Hi')
+        return True
