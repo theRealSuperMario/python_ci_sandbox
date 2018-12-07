@@ -10,3 +10,5 @@ sandbox_36
 
 
 * run tests using tox
+* remember to add test coverage regex in pipeline settings
+* test coverage parsing
