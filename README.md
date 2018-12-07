@@ -9,6 +9,7 @@
 
 [![Build Status](https://travis-ci.org/theRealSuperMario/python_ci_sandbox.svg?branch=master)](https://travis-ci.org/theRealSuperMario/python_ci_sandbox)
 
+[![Coverage Status](https://coveralls.io/repos/github/therealsupermario/python_ci_sandbox/badge.svg?branch=master)](https://coveralls.io/github/therealsupermario/python_ci_sandbox?branch=master)
 
 
 conda env:
