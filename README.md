@@ -7,6 +7,9 @@
 
 # GITHUB badges
 
+[![Build Status](https://travis-ci.org/theRealSuperMario/python_ci_sandbox.svg?branch=master)](https://travis-ci.org/theRealSuperMario/python_ci_sandbox)
+
+
 
 conda env:
  
